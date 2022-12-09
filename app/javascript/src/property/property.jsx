@@ -1,8 +1,8 @@
 // property.jsx
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Layout from '@src/layout';
-import { handleErrors } from './utils/fetchHelper';
+import BookingWidget from './bookingWidget';
+import { handleErrors } from '../utils/fetchHelper';
 
 import './property.scss';
 
@@ -67,6 +67,9 @@ class Property extends React.Component {
               </div>
               <hr/>
               <p>{description}</p>
+            </div>
+            <div className="col-12 col-lg-5">
+              <BookingWidget property_id={id} price_per_night={price_per_night}/>
             </div>
           </div>
         </div>
