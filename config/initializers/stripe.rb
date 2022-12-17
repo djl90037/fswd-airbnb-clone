@@ -1,0 +1,1 @@
+Stripe.api_key = ENV['sk_test_51MFKxwLOLVGaTzt4knQP9abxMXkTscRAMZOookp4EsRYGs7CWr5NUKmwVBMjmuBwa9EjViZyH8OJyR32JLX95mbo00ukfZHNww']

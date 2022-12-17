@@ -9,6 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   ReactDOM.render(
     <Property property_id={data.property_id} />,
-    document.body.appendChild(document.createElemenent('div')),
+    document.body.appendChild(document.createElement('div')),
   )
 })

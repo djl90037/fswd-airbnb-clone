@@ -1,5 +1,6 @@
 // property.jsx
 import React from 'react';
+import ReactDOM from 'react-dom'
 import Layout from '@src/layout';
 import BookingWidget from './bookingWidget';
 import { handleErrors } from '../utils/fetchHelper';
@@ -13,6 +14,7 @@ class Property extends React.Component {
   }
 
   componentDidMount() {
+    console.log(process.env.STRIPE_PUBLISHABLE_KEY)
     fetch(`/api/properties/${this.props.property_id}`)
       .then(handleErrors)
       .then(data => {
@@ -87,3 +89,4 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.appendChild(document.createElement('div')),
   )
 })
+
