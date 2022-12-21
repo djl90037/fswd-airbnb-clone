@@ -18,6 +18,7 @@ class BookingWidget extends React.Component {
   }
 
   componentDidMount() {
+    console.log(process.env.STRIPE_PUBLISHABLE_KEY)
     fetch('/api/authenticated')
       .then(handleErrors)
       .then(data => {
