@@ -31,6 +31,8 @@ Rails.application.routes.draw do
     get '/properties'                             => 'properties#index'
     get '/properties/:id'                         => 'properties#show'
     get '/users/:username/properties'             => 'properties#index_by_user'
+    delete '/properties/:id'                      => 'properties#destroy'
+    patch '/properties/:id'                       => 'properties#update'
     # resources :properties, only: [:index, :show]
 
 

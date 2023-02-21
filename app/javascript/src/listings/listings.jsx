@@ -68,10 +68,10 @@ class Listings extends React.Component {
             {userListings.map(property => {
             return (
 
-            <div key={property.id} id={property.id} className="listings-wrap p-4 mb-3">
+            <div key={property.id} id={property.id} className="listings listings-wrap p-4 mb-3">
               <div className="row d-flex">
                 <div className="col-4">
-                  <div className="property-image rounded" style={{ backgroundImage: `(${property.image})` }}/>
+                  <div className="property-image rounded" style={{ backgroundImage: `url(${property.image})` }}/>
                 </div>
                 <div className="col-8">
                   <div className="row d-flex flex-column px-3">
@@ -96,7 +96,7 @@ class Listings extends React.Component {
                     <div className="d-flex">
                       <div className="mx-2"><a className="btn btn-danger btn-sm btn-edit mr-2 mt-2" role="button" href={`/property/${property.id}/edit-property`}>Edit property</a></div>
                     
-                      <div className="delete-button-div"><button type="submit" className="btn btn-danger btn-sm btn-delete ml-auto mr-2 mt-2" onClick={this.removeProperty}>Delete property</button></div>
+                      <div className="delete-button-div"><button type="submit" className="btn btn-danger btn-sm btn-delete ml-auto mr-2 mt-2" onClick={this.removeListing}>Delete property</button></div>
 
                     </div>
                   </div>

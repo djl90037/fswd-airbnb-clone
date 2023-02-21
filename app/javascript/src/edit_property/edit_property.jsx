@@ -87,7 +87,7 @@ class EditProperty extends React.Component {
           <p className="mb-4 text-secondary">Please edit your property</p>
           <form className="py-4 form-property" onSubmit={this.updatePropertyAttributes}>
             <div className="row g-3 align-items-center py-2">
-              <div classname="col-7">
+              <div className="col-7">
                 <label htmlFor="propertyTitle" className="col-form-label">Property title</label>
               </div>
               <div className="col-auto">
@@ -96,7 +96,7 @@ class EditProperty extends React.Component {
             </div>
 
             <div className="row g-3 align-items-center py-2">
-              <div classname="col-7">
+              <div className="col-7">
                 <label htmlFor="propertyDescription" className="col-form-label">Property description</label>
               </div>
               <div className="col-auto">
@@ -105,7 +105,7 @@ class EditProperty extends React.Component {
             </div>
 
             <div className="row g-3 align-items-center py-2">
-              <div classname="col-7">
+              <div className="col-7">
                 <label htmlFor="propertyCity" className="col-form-label">City</label>
               </div>
               <div className="col-auto">
@@ -114,7 +114,7 @@ class EditProperty extends React.Component {
             </div>
 
             <div className="row g-3 align-items-center py-2">
-              <div classname="col-7">
+              <div className="col-7">
                 <label htmlFor="propertyCountry" className="col-form-label">Country</label>
               </div>
               <div className="col-auto">
@@ -123,7 +123,7 @@ class EditProperty extends React.Component {
             </div>
 
             <div className="row g-3 align-items-center py-2">
-              <div classname="col-7">
+              <div className="col-7">
                 <label htmlFor="propertyType" className="col-form-label">Property type</label>
               </div>
               <div className="col-auto">
@@ -132,7 +132,7 @@ class EditProperty extends React.Component {
             </div>
 
             <div className="row g-3 align-items-center py-2">
-              <div classname="col-7">
+              <div className="col-7">
                 <label htmlFor="propertyMaxGuest" className="col-form-label">Maximum guests</label>
               </div>
               <div className="col-auto">
@@ -141,7 +141,7 @@ class EditProperty extends React.Component {
             </div>
 
             <div className="row g-3 align-items-center py-2">
-              <div classname="col-7">
+              <div className="col-7">
                 <label htmlFor="propertyBedrooms" className="col-form-label">Bedrooms</label>
               </div>
               <div className="col-auto">
@@ -150,7 +150,7 @@ class EditProperty extends React.Component {
             </div>
 
             <div className="row g-3 align-items-center py-2">
-              <div classname="col-7">
+              <div className="col-7">
                 <label htmlFor="propertyBeds" className="col-form-label">Beds</label>
               </div>
               <div className="col-auto">
@@ -159,7 +159,7 @@ class EditProperty extends React.Component {
             </div>
 
             <div className="row g-3 align-items-center py-2">
-              <div classname="col-7">
+              <div className="col-7">
                 <label htmlFor="propertyBaths" className="col-form-label">Baths</label>
               </div>
               <div className="col-auto">
@@ -168,7 +168,7 @@ class EditProperty extends React.Component {
             </div>
 
             <div className="row g-3 align-items-center py-2">
-              <div classname="col-7">
+              <div className="col-7">
                 <label htmlFor="propertyPricePerNight" className="col-form-label">Price per night</label>
               </div>
               <div className="col-auto">

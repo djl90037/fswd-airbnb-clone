@@ -31,8 +31,8 @@ Rails.application.configure do
   end
 
   # Using the Amazon S3 settings for Active Storage
-  # config.active_storage.service = :amazon
-  config.active_storage.service = :local
+  config.active_storage.service = :amazon
+  # config.active_storage.service = :local
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
